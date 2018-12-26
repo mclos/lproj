@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<site>
+   <description name="los project" url="https://mclos.github.io">
+      •Los is a virtual machine in C language compiled. It uses llvm/clang
+as its front end, and losld does the backend to compile the source
+code to generate the los directive file. The Los virtual machine
+is written in 100% c language and runs on mcu and pc. 
+•los (core) accounts for about 15Kb of rom, 15Kb of lgui component,
+and ram 200byte. 
+•los provides unified api interface to achieve the benefits of
+writing once, running everywhere, and improving code reusability.
+   </description>
+   <feature url="features/Los_gui_feature_1.0.0.201812262125.jar" id="Los_gui_feature" version="1.0.0.201812262125">
+      <category name="com.lp.los_lgui_g"/>
+   </feature>
+   <category-def name="com.lp.los_lgui_g" label="los">
+      <description>
+         •Los is a virtual machine in C language compiled. It uses llvm/clang
+as its front end, and losld does the backend to compile the source
+code to generate the los directive file. The Los virtual machine
+is written in 100% c language and runs on mcu and pc. 
+•los (core) accounts for about 15Kb of rom, 15Kb of lgui component,
+and ram 200byte. 
+•los provides unified api interface to achieve the benefits of
+writing once, running everywhere, and improving code reusability.
+      </description>
+   </category-def>
+</site>
